@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:controllers\\halakscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\bern\u00E1t oliv\u00E9r\\desktop\\asdasdasddas\\halakhazi\\halak\\models\\halakcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:models\\halakcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\bern\u00E1t oliv\u00E9r\\desktop\\asdasdasddas\\halakhazi\\halak\\dtos\\halakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:dtos\\halakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\bern\u00E1t oliv\u00E9r\\desktop\\asdasdasddas\\halakhazi\\halak\\controllers\\fogasokscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:controllers\\fogasokscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\bern\u00E1t oliv\u00E9r\\desktop\\asdasdasddas\\halakhazi\\halak\\dtos\\halakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|solutionrelative:dtos\\halakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5144D799-9FD3-47C8-A2B5-B13518DA9D45}|halak.csproj|c:\\users\\bern\u00E1t oliv\u00E9r\\desktop\\asdasdasddas\\halakhazi\\halak\\dtos\\horgaszdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -51,33 +47,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HalakContext.cs",
-              "DocumentMoniker": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\Models\\HalakContext.cs",
-              "RelativeDocumentMoniker": "Models\\HalakContext.cs",
-              "ToolTip": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\Models\\HalakContext.cs",
-              "RelativeToolTip": "Models\\HalakContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA7wBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:57:46.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HalaksController.cs",
               "DocumentMoniker": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\Controllers\\HalaksController.cs",
               "RelativeDocumentMoniker": "Controllers\\HalaksController.cs",
               "ToolTip": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\Controllers\\HalaksController.cs",
               "RelativeToolTip": "Controllers\\HalaksController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T17:22:30.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HalakDTO.cs",
               "DocumentMoniker": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\DTOs\\HalakDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\HalakDTO.cs",
@@ -89,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HorgaszDTO.cs",
               "DocumentMoniker": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\DTOs\\HorgaszDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\HorgaszDTO.cs",
@@ -107,10 +90,9 @@
               "RelativeDocumentMoniker": "Controllers\\FogasoksController.cs",
               "ToolTip": "C:\\Users\\Bern\u00E1t Oliv\u00E9r\\Desktop\\asdasdasddas\\halakHazi\\halak\\Controllers\\FogasoksController.cs",
               "RelativeToolTip": "Controllers\\FogasoksController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:39:16.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T16:39:16.1Z"
             }
           ]
         }

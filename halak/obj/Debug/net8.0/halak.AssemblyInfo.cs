@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("halak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c093603967e99ab0790deaa2a7d17ea0d1d7c739")]
 [assembly: System.Reflection.AssemblyProductAttribute("halak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("halak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

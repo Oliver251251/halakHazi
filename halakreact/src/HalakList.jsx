@@ -5,10 +5,23 @@ import { Link } from "react-router-dom";
 export const HalakList = () => {
   const [halak, setHalak] = useState([]);
   const [locations, setLocations] = useState({}); // Store locations in an object
+  const [imagePreview, setImagePreview] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null); 
 
   useEffect(() => {
     loadHalak();
   }, []);
+
+  const handleImageChange = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+        setSelectedImage(file);
+
+        
+        const previewUrl = URL.createObjectURL(file);
+        setImagePreview(previewUrl);
+    }
+};
 
   const loadHalak = async () => {
     try {
@@ -48,6 +61,23 @@ export const HalakList = () => {
       <ul>
         {halak.map((hal) => (
           <li key={hal.id}>
+             {imagePreview ? (
+                            <img
+                                src={imagePreview}
+                                alt="Selected preview"
+                                className="img-fluid rounded shadow-sm"
+                                style={{ width: "250px", height: "auto", objectFit: "cover" }}
+                            />
+                        ) : (
+                            hal.kep && (
+                                <img
+                                    src={`data:image/jpeg;base64,${hal.kep}`}
+                                    alt="Fish"
+                                    className="img-fluid rounded shadow-sm"
+                                    style={{ width: "250px", height: "auto", objectFit: "cover" }}
+                                />
+                            )
+                        )}
             {hal.nev} - {hal.faj} - {hal.meretCm} cm - {locations[hal.toId] || "Betöltés..."}
             <Link to={`/Halmod/${hal.id}`} >Modosit</Link>&nbsp;&nbsp;&nbsp;
             <button onClick={() => handleDelete(hal.id)}>🗑️</button>
